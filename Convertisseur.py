@@ -13,7 +13,7 @@ def NbToConvert():
 def BynaryToDecimal():
     
     choix_utilisateur=str(NbToConvert())
-    print("vous avez choisi: %d" %(choix_utilisateur))
+    print("vous avez choisi: %s" %(choix_utilisateur))
     results = 0
     for c in choix_utilisateur:
         results = results*2+int(c)
